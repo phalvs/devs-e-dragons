@@ -12,6 +12,7 @@ export class PersonagemView {
         this.escutarEventoDuelo ()
     }
 
+    
     render() {
         this.ulPersonagens.innerHTML = ''
         this.personagens.forEach(personagem => {
